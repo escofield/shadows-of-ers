@@ -1,0 +1,22 @@
+{
+    "name": "shadows-of-ers",
+    "displayName": "Shadows Of ERS",
+    "description": "a low contrast theme to give relavence to flow control and less to structural syntax",
+    "version": "0.0.1",
+    "publisher": "ERS",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Shadows Of ERS",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Shadows Of ERS-color-theme.json"
+            }
+        ]
+    }
+}
