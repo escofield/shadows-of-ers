@@ -55,13 +55,9 @@
 		{
 			"name": "Pastal Yellow",
 			"scope": [
-				"entity.other.attribute-name.class.css",
-				"entity.other.attribute-name.class.html",
-				"meta.attribute-with-value.class.html",
 				"meta.property-name",
 				"meta.selector",
 				"meta.template.expression.js",
-				"meta.toc-list.class.html",
 				"support.type.property-name.json"
 			],
 			"settings": {
@@ -90,7 +86,8 @@
 			"name": "Orange",
 			"scope": [
 				"string",
-				"editor.selectionHighlightBackground"
+				"editor.selectionHighlightBackground",
+				"text.block.pipe.pug"
 			],
 			"settings": {
 				"foreground": "#BB8232",
@@ -152,15 +149,39 @@
 			}
 		},
 		{
+			"name": "Stylus property",
+			"scope": [
+				"support.type.property-name.css"
+			],
+			"settings": {
+				"foreground": "#6b8b2e",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "css class",
+			"scope": [
+				"meta.toc-list.class.html",
+				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.class.html",
+				"meta.attribute-with-value.class.html",
+				"entity.other.attribute-name.class.pug"
+			],
+			"settings": {
+				"foreground": "#d4bf00"
+			}
+		},
+		{
 			"name": "Id",
 			"scope": [
 				"entity.other.attribute-name.id.css",
 				"entity.other.attribute-name.id.html",
 				"meta.attribute-with-value.id.html",
-				"meta.toc-list.id.html"
+				"meta.toc-list.id.html",
+				"entity.other.attribute-name.id.pug"
 			],
 			"settings": {
-				"foreground": "#5897a0"
+				"foreground": "#51d7ec"
 			}
 		}
 	]
