@@ -131,6 +131,7 @@
 				"text.html.template.mustache.escape.end",
 				"punctuation.definition.generic.begin.html",
 				"punctuation.definition.generic.end.html"
+
 			],
 			"settings": {
 				"fontStyle": "italic",
