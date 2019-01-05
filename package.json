@@ -2,8 +2,9 @@
     "name": "shadows-of-ers",
     "displayName": "Shadows Of ERS",
     "description": "a low contrast theme to give relavence to flow control and less to structural syntax",
-    "version": "0.0.1",
-    "publisher": "ERS",
+    "version": "0.1.0",
+    "publisher": "ers",
+    "repository": "https://github.com/escofield/shadows-of-ers",
     "engines": {
         "vscode": "^1.24.0"
     },
